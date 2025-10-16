@@ -2,11 +2,12 @@
 
 # 👋 Hi, I'm Ivor Smorenburg
 
-### Kotlin Developer | Cloud Enthusiast | London-based 🇬🇧
+### 🤖 Full-time Android Developer | ⚙️ Part-time Infrastructure Wizard
 
+[![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/yourusername)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ivorsmorenburg)
-[![Website](https://img.shields.io/badge/Website-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://smorenburg.me)
 [![DEV](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/ivorsmorenburg)
+[![Website](https://img.shields.io/badge/Website-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.smorenburg.me)
 
 </div>
 
@@ -14,91 +15,85 @@
 
 ## 🚀 About Me
 
-I'm a developer passionate about building scalable infrastructure and modern applications. Based in London, I love working with cloud-native technologies and exploring the intersection of DevOps and development.
+Full-time Android developer, part-time infrastructure wizard based in London. I build things, break them, then make them better. Passionate about automation, CI/CD, and making developers' lives easier.
 ```kotlin
 data class Developer(
-    val name: String = "Ivor Smorenburg",
-    val location: String = "London, UK 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    val languages: List<String> = listOf("Kotlin", "Python", "JavaScript"),
-    val interests: List<String> = listOf(
-        "Backend Development",
-        "Cloud Infrastructure", 
-        "DevOps",
-        "Kubernetes"
-    ),
-    val currentlyExploring: List<String> = listOf(
-        "Kotlin Multiplatform",
-        "Helm Charts",
-        "Modern Web Technologies"
-    ),
-    val motto: String = "Build once, deploy anywhere"
+    val role: String = "Android Developer",
+    val sideQuest: String = "Infrastructure Wizard 🧙‍♂️",
+    val location: String = "London, UK 🇬🇧",
+    val philosophy: String = "Breaking things until they work",
+    val primaryStack: List<String> = listOf("Kotlin", "Android", "TypeScript"),
+    val exploring: List<String> = listOf("Go", "AI/LLM", "MCP Agents"),
+    val tools: List<String> = listOf("Terraform", "CI/CD", "Automation")
 ) {
-    fun dailyRoutine() = listOf(
-        "☕ Coffee",
-        "💻 Code",
-        "🚀 Deploy",
-        "🔁 Repeat"
-    )
+    fun workflow() = sequence {
+        yield("☕ Coffee")
+        yield("📱 Build Android apps")
+        yield("🔧 Automate everything")
+        yield("💥 Break things")
+        yield("🔨 Fix them better")
+        yield("🚀 Deploy with confidence")
+    }
 }
-
-val ivor = Developer()
 ```
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Arsenal
 ```text
-Kotlin       ▰▰▰▰▰▰▰▰▰▰  Primary Language
-Backend      ▰▰▰▰▰▰▰▰▰░  Spring Boot, Ktor
-Cloud/DevOps ▰▰▰▰▰▰▰▰░░  Kubernetes, Helm, Docker
-Database     ▰▰▰▰▰▰▰░░░  PostgreSQL, Redis, MongoDB
-Frontend     ▰▰▰▰▰▰▰░░░  JavaScript, React, Next.js
-Tools        ▰▰▰▰▰▰▰▰▰░  Git, CI/CD, Gradle
+Android      ▰▰▰▰▰▰▰▰▰▰  Kotlin, Jetpack Compose, MVVM
+Backend      ▰▰▰▰▰▰▰▰░░  Kotlin, TypeScript
+Learning     ▰▰▰▰▰▰░░░░  Go, AI/LLM, MCP Agents
+Infrastructure ▰▰▰▰▰▰▰▰░░ Terraform, Kubernetes, Helm
+DevOps       ▰▰▰▰▰▰▰▰▰░  CI/CD, Docker, Automation
+```
+
+## 🎯 Current Focus
+
+- 📱 **Android Development**: Building production-grade mobile apps
+- 🤖 **AI/LLM Exploration**: Playing with MCP agents and integrations
+- 🏗️ **Infrastructure**: Terraforming clouds and automating workflows
+- 🔄 **CI/CD**: Making deployments smooth and painless
+- 🦫 **Go**: Learning the gopher way
+
+## 💡 Philosophy
+```kotlin
+fun buildSoftware(requirements: Requirements) = when {
+    !requirements.isAutomated() -> automate(requirements)
+    code.isWorking() -> tryToBreakIt()
+    code.isBroken() -> fixItBetter()
+    else -> deployAndMonitor()
+}.also { 
+    println("Ship it! 🚀") 
+}
 ```
 
 ## 📊 GitHub Stats
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ivorsmorenburg&show_icons=true&theme=tokyonight&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ivorsmorenburg&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ivorsmorenburg&layout=compact&theme=tokyonight&hide_border=true)
 
 </div>
 
-## 🔭 Currently Working On
+## 🔗 Projects & Highlights
 
-- 📦 Building and maintaining
-- 🎯 Kotlin backend & frontend services with modern architecture
-- ☁️ Cloud-native architectures and microservices
-- 🔧 Contributing to open-source projects
+- 📦 [Helm Charts Repository](https://github.com/ivorsmorenburg/helm-charts) - Cloud-native deployments made easy
 
-## 💡 What I'm Into
+## 📬 Get in Touch
 
-- **Kotlin Ecosystem**: Leveraging Kotlin's power for backend/frontend development
-- **Backend Engineering**: Building robust, scalable services
-- **Infrastructure as Code**: Making deployments smooth and repeatable
-- **Developer Experience**: Creating tools that make developers' lives easier
-- **Continuous Learning**: Always exploring new technologies and best practices
+Want to collaborate on Android projects, discuss infrastructure automation, or chat about AI? 
 
-## 🎯 Kotlin Philosophy
-```kotlin
-fun approach() = when {
-    code.isConcise() && code.isSafe() -> "That's Kotlin!"
-    problem.isComplex() -> simplify()
-    deployment.isManual() -> automate()
-    else -> keepLearning()
-}
-```
-
-## 📫 Let's Connect
-
-Feel free to reach out if you want to collaborate on projects, discuss Kotlin, cloud technologies, or just chat about the latest in development!
+🔗 **[All my links & CV](https://linktr.ee/yourusername)**
 
 ---
 
 <div align="center">
 
-### ⚡ "Code with purpose, deploy with confidence" ⚡
+### ⚡ "Break it, fix it, automate it" ⚡
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ivorsmorenburg&color=blueviolet&style=flat-square)
+
+*Professional Android developer by day, infrastructure wizard by night* 🌙
 
 </div>
