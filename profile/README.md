@@ -76,15 +76,12 @@ fun buildSoftware(requirements: Requirements) = when {
 
 </div>
 
-## 🔗 Projects & Highlights
-
-- 📦 [Helm Charts Repository](https://github.com/ivorsmorenburg/helm-charts) - Cloud-native deployments made easy
 
 ## 📬 Get in Touch
 
 Want to collaborate on Android projects, discuss infrastructure automation, or chat about AI? 
 
-🔗 **[All my links & CV](https://linktr.ee/yourusername)**
+🔗 **[All my links & CV](https://linktr.ee/ivorsmorenburg)**
 
 ---
 
