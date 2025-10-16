@@ -79,9 +79,7 @@ fun buildSoftware(requirements: Requirements) = when {
 
 ## 📬 Get in Touch
 
-Want to collaborate on Android projects, discuss infrastructure automation, or chat about AI? 
-
-🔗 **[All my links & CV](https://linktr.ee/ivorsmorenburg)**
+Want to discuss, or just chat about AI? 
 
 ---
 
